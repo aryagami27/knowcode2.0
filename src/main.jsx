@@ -13,7 +13,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Navbar/>
     <div className="">
-      <video src='background_og1.mp4' autoPlay loop muted preload='auto' className='fixed h-screen w-full object-cover -z-10'/>
+      <video src='background_og1 (1).mp4' autoPlay loop muted preload='auto' className='fixed h-screen w-full object-cover -z-10'/>
       <div className="">
         <div className="relative">
           <Hero/>

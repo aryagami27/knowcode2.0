@@ -12,9 +12,10 @@ export default {
         Minecraft:['Minecraft'],
       },
       backgroundImage:{
-        'leave':"url('./public/leaves.png')",
-        'passage':"url('./public/Unground passage.png')",
-        'hotbar':"url('./public/hotbar.png')",
+        'leave':"url('/leaves.png')",
+        'passage':"url('/Unground passage.png')",
+        'hotbar':"url('/hotbar.png')",
+        'scrolls':"url('/about section.png')",
       }
     },
   },
