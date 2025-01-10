@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
   return (
     <div className='relative w-full h-[60vh] bg-[#005918] flex justify-center items-center px-8'>
-      <img src='about section.png' className='sm:max-h-[56vh] h-[75%] object-cover rounded-2xl sm:rounded-none' />
+      <img src='about section.png' className='sm:max-h-[56vh] h-[75%] object-cover sm:object-fill rounded-2xl sm:rounded-none' />
       <div className="absolute w-full flex items-center h-full top-0">
         <div className="sm:w-[70%] w-full px-16 flex flex-col">
           <p className='font-Minecrafter text-2xl'>ABOUT</p>
