@@ -1,11 +1,92 @@
-import React from 'react'
+import React from 'react';
+import {
+  InstagramLogo,
+  LinkedinLogo,
+  EnvelopeSimple,
+} from '@phosphor-icons/react';
 
 function Footer() {
   return (
-    <div>
-      
-    </div>
-  )
+    <footer className='bg-[#272727] text-gray-400 py-12 px-6 font-Minecraft'>
+      <div className='max-w-6xl mx-auto flex sm:flex-row  flex-col justify-between gap-8 px-4 sm:px-6 lg:px-8'>
+        <div>
+          <h2 className='text-white text-lg font-semibold mb-4'>Quick Links</h2>
+          <ul className='flex flex-col space-y-2 items-start '>
+            <li>
+              <a
+                href='#'
+                className='hover:text-white transition-colors duration-300'
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                href='#'
+                className='hover:text-white transition-colors duration-300'
+              >
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                href='#'
+                className='hover:text-white transition-colors duration-300'
+              >
+                Courses
+              </a>
+            </li>
+            <li>
+              <a
+                href='#'
+                className='hover:text-white transition-colors duration-300'
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2 className='text-white text-lg font-semibold mb-4'>Follow Us</h2>
+          <div className='flex flex-col space-y-2 items-start '>
+            <a
+              href='#'
+              className='hover:text-white transition-colors duration-300 flex gap-1 items-center justify-center'
+            >
+              <LinkedinLogo size={28} /> {''}Linkedin
+            </a>
+            <a
+              href='#'
+              className='hover:text-white transition-colors duration-300 flex gap-1 items-center justify-center'
+            >
+              <EnvelopeSimple size={28} />
+              {''}Email
+            </a>
+            <a
+              href='#'
+              className='hover:text-white transition-colors duration-300 flex gap-1 items-center justify-center'
+            >
+              <InstagramLogo size={28} />
+              {''}Instagram
+            </a>
+          </div>
+        </div>
+        <div>
+          <h2 className='text-white text-lg font-semibold mb-4'>Contact Us</h2>
+
+          <p>K J Somaiya Institute of Technology, </p>
+          <p>Eastern Express Highway,</p>
+          <p> Near Everard Nagar, Sion (East),</p>
+          <p>Mumbai – 400 022</p>
+          <p>Email: arya.gami@somaiya.edu</p>
+          <p>Phone: +91 9167252463</p>
+        </div>
+      </div>
+      <p className='text-center text-xs pt-8 font-sans'>
+        © 2025 S4DS KnowCode - 2.0 All Rights Reserved
+      </p>
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;
