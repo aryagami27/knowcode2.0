@@ -4,7 +4,7 @@ import { ImageCard } from '../Components/ImageCard';
 function Theme() {
   return (
     <div className=' bg-[#005918]'>
-      <ImageCard />
+      <div className="h-[50vh] w-full bg-leave bg-repeat"></div>
 
       <div className='relative'>
         <img src='Wood.png' alt='wood' className='w-full z-0' />
@@ -23,7 +23,7 @@ function Theme() {
         <img
           src='Theme.png'
           alt='Theme'
-          className='absolute inset-0 m-auto z-10 w-[90%]  sm:px-0'
+          className='absolute inset-0 m-auto z-10 w-[90%] max-w-[1200px]  sm:px-0'
           style={{
             top: '50%',
             left: '50%',
@@ -42,8 +42,18 @@ function Theme() {
           }}
         />
       </div>
-
-      <ImageCard />
+      <div className="h-[50vh] w-full flex justify-center bg-leave bg-repeat">
+        <div className="flex flex-wrap mt-20">
+          <div className="size-20 bg-hotbar bg-cover"></div>
+          <div className="size-20 bg-hotbar bg-cover"></div>
+          <div className="size-20 bg-hotbar bg-cover"></div>
+          <div className="size-20 bg-hotbar bg-cover"></div>
+          <div className="size-20 bg-hotbar bg-cover"></div>
+          <div className="size-20 bg-hotbar bg-cover"></div>
+          <div className="size-20 bg-hotbar bg-cover"></div>
+          <div className="size-20 bg-hotbar bg-cover"></div>
+        </div>
+      </div>
     </div>
   );
 }

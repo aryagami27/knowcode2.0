@@ -10,6 +10,11 @@ export default {
         Minecrafter:['Minecrafter'],
         Minecrafteralt:['Minecrafter-alt'],
         Minecraft:['Minecraft'],
+      },
+      backgroundImage:{
+        'leave':"url('./public/leaves.png')",
+        'passage':"url('./public/Unground passage.png')",
+        'hotbar':"url('./public/hotbar.png')",
       }
     },
   },
