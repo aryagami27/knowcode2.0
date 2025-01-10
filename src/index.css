@@ -1,3 +1,16 @@
+@font-face {
+    font-family: Minecrafter;
+    src: url(../public/Minecrafter.Reg.ttf);
+}
+@font-face {
+    font-family: Minecrafter-alt;
+    src: url(../public/Minecrafter.Alt.ttf);
+}
+@font-face {
+    font-family: Minecraft;
+    src: url(../public/Minecraft.otf);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

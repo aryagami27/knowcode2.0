@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        Minecrafter:['Minecrafter'],
+        Minecrafteralt:['Minecrafter-alt'],
+        Minecraft:['Minecraft'],
+      }
+    },
   },
   plugins: [],
 }

@@ -6,7 +6,11 @@ import Navbar from './Components/Navbar.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Navbar/>
-    <Hero/>
+    <video src='background_og1.mp4' autoPlay loop muted preload='auto' className='relative h-screen w-full object-cover -z-10'>
+      <div className="absolute z-10">
+        <Navbar/>
+        <Hero/>
+      </div>
+    </video>
   </StrictMode>,
 )
