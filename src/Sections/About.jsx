@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
   return (
-    <div className='relative w-full h-[60vh] bg-[#005918] flex justify-center items-center px-8'>
+    <div className='relative w-full h-[60vh] bg-[#005918] flex justify-center items-center px-8' id='about'>
       <img
         src='about section.png'
         className='sm:max-h-[56vh] h-[75%] object-cover sm:object-fill rounded-2xl sm:rounded-none'
