@@ -6,7 +6,7 @@ export const ImageCard = () => {
       {Array.from({ length: 3 }, (_, i) => (
         <img
           key={i}
-          src='/public/leaves.png'
+          src='leaves.png'
           alt='leaves'
           className='object-fill w-full'
         />

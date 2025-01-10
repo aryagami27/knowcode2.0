@@ -7,6 +7,7 @@ import Footer from './Components/Footer.jsx';
 import About from './Sections/About.jsx';
 import Prizepool from './Sections/Prizepool.jsx';
 import Theme from './Sections/Theme.jsx';
+import Timeline from './Sections/Timeline.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -14,6 +15,7 @@ createRoot(document.getElementById('root')).render(
     <Hero/>
     <About/>
     <Theme/>
+    <Timeline/>
     <Prizepool/>
     <Footer/>
   </StrictMode>

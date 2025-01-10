@@ -7,10 +7,10 @@ function Theme() {
       <ImageCard />
 
       <div className='relative'>
-        <img src='/public/Wood.png' alt='wood' className='w-full z-0' />
+        <img src='Wood.png' alt='wood' className='w-full z-0' />
 
         <img
-          src='/public/Steve.png'
+          src='Steve.png'
           alt='Steve'
           className='absolute z-10 w-auto h-[100%]'
           style={{
@@ -21,7 +21,7 @@ function Theme() {
         />
 
         <img
-          src='/public/Theme.png'
+          src='Theme.png'
           alt='Theme'
           className='absolute inset-0 m-auto z-10 w-[90%]  sm:px-0'
           style={{
@@ -32,7 +32,7 @@ function Theme() {
         />
 
         <img
-          src='/public/Alex.png'
+          src='Alex.png'
           alt='Alex'
           className='absolute z-10 w-auto h-[100%]'
           style={{
