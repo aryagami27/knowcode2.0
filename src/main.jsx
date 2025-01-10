@@ -5,12 +5,14 @@ import Hero from './Sections/Hero.jsx';
 import Navbar from './Components/Navbar.jsx';
 import Footer from './Components/Footer.jsx';
 import About from './Sections/About.jsx';
+import Theme from './Sections/Theme.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Navbar/>
-    <Hero/>
-    <About/>
-    <Footer/>
+    <Navbar />
+    <Hero />
+    <About />
+    <Theme />
+    <Footer />
   </StrictMode>
 );
