@@ -1,7 +1,18 @@
-import React from 'react';
-import { ImageCard } from '../Components/ImageCard';
+import {useEffect} from 'react';
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
 
 function Theme() {
+
+  useEffect(() => {
+    gsap.to('theme',{
+      x:200,
+      duration:1,
+      opacity:1
+    })
+  }, [])
+  
+
   return (
     <div className=' bg-[#005918]'>
       <div className="h-[50vh] w-full bg-leave bg-repeat"></div>
@@ -12,18 +23,18 @@ function Theme() {
         <img
           src='Steve.png'
           alt='Steve'
-          className='absolute z-10 w-auto h-[100%]'
+          id='theme'
+          className='absolute z-10 w-auto h-[100%] opacity-0 -translate-x-40'
           style={{
             top: '-20%',
             left: '0%',
-            transform: 'translateX(0%)',
           }}
         />
 
         <img
           src='Theme.png'
           alt='Theme'
-          className='absolute inset-0 m-auto z-10 w-[90%] max-w-[1200px]  sm:px-0'
+          className='absolute inset-0 m-auto z-10 w-[90%] max-w-[1200px]  sm:px-0 mt-2'
           style={{
             top: '50%',
             left: '50%',
@@ -34,6 +45,7 @@ function Theme() {
         <img
           src='Alex.png'
           alt='Alex'
+          id='theme'
           className='absolute z-10 w-auto h-[100%]'
           style={{
             bottom: '-60%',

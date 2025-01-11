@@ -52,7 +52,7 @@ function Prizepool() {
             </div>
             <div className="flex flex-col items-center opacity-0" id="d">
               <p className="text-white sm:text-lg text-center text-sm font-Minecraft">
-                1nd Runnerup
+                1st Runnerup
               </p>
               <p className="text-white font-Minecrafteralt sm:text-4xl text-2xl">
                 25K
