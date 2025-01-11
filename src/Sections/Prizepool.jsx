@@ -34,7 +34,7 @@ function Prizepool() {
           <div className="flex gap-8 justify-around items-center">
             <div className="flex flex-col items-center opacity-0" id="d">
               <div className="bg-black bg-opacity-25 px-1 mb-1">
-              <p className="text-white sm:text-2xl text-center text-sm font-Minecraft">
+              <p className="text-white sm:text-2xl text-center text-xs font-Minecraft">
                 2nd Runnerup
               </p>
               </div>
@@ -56,7 +56,7 @@ function Prizepool() {
             </div>
             <div className="flex flex-col items-center opacity-0" id="d">
               <div className="bg-black bg-opacity-25 px-1 mb-1">
-              <p className="text-white sm:text-2xl text-center text-sm font-Minecraft">
+              <p className="text-white sm:text-2xl text-center text-xs font-Minecraft">
                 1st Runnerup
               </p>
               </div>

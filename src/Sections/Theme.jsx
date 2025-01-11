@@ -74,13 +74,27 @@ function Theme() {
       <div className="h-[50vh] w-full flex justify-center bg-leave bg-repeat pt-10">
         <div className="flex flex-wrap justify-center space-x-2">
         <div className="sm:size-28 size-20 bg-hotbar bg-cover"></div>
-          <div className="sm:size-28 size-20  bg-hotbar bg-cover"></div>
-          <div className="sm:size-28 size-20 bg-hotbar bg-cover"></div>
-          <div className="sm:size-28 size-20 bg-hotbar bg-cover"></div>
-          <div className="sm:size-28 size-20 bg-hotbar bg-cover"></div>
-          <div className="sm:size-28 size-20 bg-hotbar bg-cover"></div>
-          <div className="sm:size-28 size-20 bg-hotbar bg-cover"></div>
-          <div className="sm:size-28 size-20 bg-hotbar bg-cover"></div>
+          <div className="sm:size-28 size-20  bg-hotbar bg-cover">
+
+          </div>
+          <div className="sm:size-28 size-20 bg-hotbar bg-cover">
+            
+          </div>
+          <div className="sm:size-28 size-20 bg-hotbar bg-cover">
+
+          </div>
+          <div className="sm:size-28 size-20 bg-hotbar bg-cover">
+
+          </div>
+          <div className="sm:size-28 size-20 bg-hotbar bg-cover">
+
+          </div>
+          <div className="sm:size-28 size-20 bg-hotbar bg-cover">
+
+          </div>
+          <div className="sm:size-28 size-20 bg-hotbar bg-cover">
+
+          </div>
         </div>
       </div>
     </div>
