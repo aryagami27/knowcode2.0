@@ -108,8 +108,8 @@ function Prizepool() {
         </div>
       </div>
       <img src="Stoneslab.png" className="object-cover w-full" />
-      <div className="relative bg-passage bg-center bg-no-repeat bg-cover sm:h-[100vh] h-[400px]"></div>
-      <img src="Stoneslab.png" className="object-cover w-full" />
+      {/* <div className="relative bg-passage bg-center bg-no-repeat bg-cover sm:h-[100vh] h-[400px]"></div>
+      <img src="Stoneslab.png" className="object-cover w-full" /> */}
     </div>
   );
 }
