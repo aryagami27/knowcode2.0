@@ -1,14 +1,32 @@
 import {useEffect} from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
+import ScrollTrigger from 'gsap/src/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger)
 
 function Theme() {
+  let tl= gsap.timeline({
+    delay:0.5,
+  })
 
   useEffect(() => {
-    gsap.to('theme',{
-      x:200,
+    tl.to('#theme1',{
+      x:0,
       duration:1,
-      opacity:1
+      opacity:1,
+      scrollTrigger:{
+        trigger:'#theme1',
+        start: "top center",
+      }
+    }).to('#theme2',{
+      x:0,
+      opacity:1,
+      duration:1,
+      scrollTrigger:{
+        trigger:'#theme2',
+        start: "top center",
+      }
     })
   }, [])
   
@@ -23,7 +41,7 @@ function Theme() {
         <img
           src='Steve.png'
           alt='Steve'
-          id='theme'
+          id='theme1'
           className='absolute z-10 w-auto h-[100%] opacity-0 -translate-x-40'
           style={{
             top: '-20%',
@@ -45,12 +63,11 @@ function Theme() {
         <img
           src='Alex.png'
           alt='Alex'
-          id='theme'
-          className='absolute z-10 w-auto h-[100%]'
+          id='theme2'
+          className='absolute z-10 w-auto h-[100%] opacity-0 translate-x-40'
           style={{
             bottom: '-60%',
             right: '0%',
-            transform: 'translateX(0%)',
           }}
         />
       </div>
