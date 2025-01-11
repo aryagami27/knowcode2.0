@@ -33,8 +33,8 @@ function Prizepool() {
           </p>
           <div className="flex gap-8 justify-around items-center">
             <div className="flex flex-col items-center opacity-0" id="d">
-              <div className="bg-black bg-opacity-45 px-1 mb-1">
-              <p className="text-white sm:text-2xl text-center text-sm font-Minecraft">
+              <div className="bg-black bg-opacity-25 px-1 mb-1">
+              <p className="text-white sm:text-2xl text-center text-xs font-Minecraft">
                 2nd Runner Up
               </p>
               </div>
@@ -44,7 +44,7 @@ function Prizepool() {
               <img src="Iron Armour.png" className="sm:h-80 h-32 "/>
             </div>
             <div className="flex flex-col items-center opacity-0" id="d">
-              <div className="bg-black bg-opacity-45 px-1 mb-1">
+              <div className="bg-black bg-opacity-25 px-1 mb-1">
               <p className="text-white sm:text-3xl text-sm font-Minecraft">
                 Winner
               </p>
@@ -55,8 +55,8 @@ function Prizepool() {
               <img src="Nethrite Armour.png" className="sm:h-[400px] h-40 " />
             </div>
             <div className="flex flex-col items-center opacity-0" id="d">
-              <div className="bg-black bg-opacity-45 px-1 mb-1">
-              <p className="text-white sm:text-2xl text-center text-sm font-Minecraft">
+              <div className="bg-black bg-opacity-25 px-1 mb-1">
+              <p className="text-white sm:text-2xl text-center text-xs font-Minecraft">
                 1st Runner Up
               </p>
               </div>
@@ -72,7 +72,7 @@ function Prizepool() {
       <div className="bg-passage bg-center bg-no-repeat bg-cover flex justify-center py-8 px-4">
         <div className="w-full bg-signbkg rounded-2xl py-4 px-2 text-black max-w-[1200px] h-full gap-4 flex flex-col justify-center">
           <p className="text-4xl font-Minecrafter text-center ">Guidelines</p>
-          <div className="font-semibold max-sm:text-xs lg:text-lg text-justify px-4 font-Minecraft">
+          <div className="font-medium max-sm:text-xs lg:text-lg text-justify px-4 font-Minecraft">
             <p>
               1) Participants are required to remain within the college premises
               during the Hackathon, seeking permission from volunteers if there's
