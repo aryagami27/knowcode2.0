@@ -9,9 +9,9 @@ function Hero() {
         <img src='Logo.png' className='max-sm:h-40 h-80' />
         <div className="bg-yellow-300 min-h-52"></div>
       </div>
-      <div className="relative" id='clock'>
-        <p className='text-white font-Minecrafter text-center text-4xl'>Time Left</p>
-        {/* <p>timer</p> */}
+      <div className="text-[#C2C2C2] h-screen flex justify-center items-center flex-col" id='clock'>
+        <p className=' font-Minecrafter text-center text-4xl' style={{textShadow: "0px 8px #000000",WebkitTextStroke: "2px black"}}>Time Left</p>
+        <p className='font-Minecrafteralt text-8xl text-center pb-[50vh]' style={{textShadow: "0px 12px #000000",WebkitTextStroke: "2px black"}}>1D:11H:11M</p>
       </div>
     </div>
   )

@@ -16,6 +16,7 @@ export default {
         'passage':"url('/Unground passage.png')",
         'hotbar':"url('/hotbar.png')",
         'scrolls':"url('/about section.png')",
+        'signbkg':"url('/Sign.png')",
       }
     },
   },
