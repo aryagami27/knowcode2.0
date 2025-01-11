@@ -1,6 +1,24 @@
-import React from "react";
+import {useEffect} from "react";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import ScrollTrigger from "gsap/src/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger)
 
 function Prizepool() {
+
+  useEffect(() => {
+    gsap.to('#d',{
+      opacity:1,
+      duration:1,
+      scrollTrigger:{
+        trigger:'#d',
+        start: "top center",
+      }
+    })
+  }, [])
+  
+
   return (
     <div className="w-full">
       <img src="Stoneslab.png" className="object-cover w-full" />
@@ -14,16 +32,16 @@ function Prizepool() {
             Prizepool
           </p>
           <div className="flex gap-8 justify-around items-center">
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center opacity-0" id="d">
               <p className="text-white sm:text-lg text-center text-sm font-Minecraft">
                 2nd Runnerup
               </p>
               <p className="text-white font-Minecrafteralt sm:text-4xl text-2xl">
                 15K
               </p>
-              <img src="Iron Armour.png" className="sm:h-80 h-32 " />
+              <img src="Iron Armour.png" className="sm:h-80 h-32 "/>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center opacity-0" id="d">
               <p className="text-white sm:text-lg text-sm font-Minecraft">
                 Winner
               </p>
@@ -32,7 +50,7 @@ function Prizepool() {
               </p>
               <img src="Nethrite Armour.png" className="sm:h-[400px] h-40 " />
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center opacity-0" id="d">
               <p className="text-white sm:text-lg text-center text-sm font-Minecraft">
                 1nd Runnerup
               </p>
