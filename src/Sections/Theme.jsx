@@ -72,59 +72,59 @@ function Theme() {
         />
       </div>
       <div className="h-[50vh] w-full flex justify-center bg-leave bg-repeat pt-10">
-        <div className="flex flex-wrap justify-center sm:space-x-5 space-x-2  text-xl">
+        <div className="flex flex-wrap justify-center sm:space-x-5 sm:text-xl text-xs">
         <div className='flex flex-col items-center'>
           <div className="sm:size-28 size-20  bg-hotbar bg-cover flex justify-center items-center">
-            <img src="blockchain1.png" alt="blockchain" className='size-18'/>
+            <img src="blockchain1.png" alt="blockchain" className='sm:size-16 size-12'/>
           </div>
           <p className='text-white mt-1'>AI/ML</p>
           </div>
 
           <div className='flex flex-col items-center'>
           <div className="sm:size-28 size-20  bg-hotbar bg-cover flex justify-center items-center">
-            <img src="Painting.png" alt="frontend" className='size-20 mb-1 mr-1'/>
+            <img src="Painting.png" alt="frontend" className='sm:size-20 mb-1 mr-1 size-14'/>
           </div>
           <p className='text-white mt-1'>Frontend </p>
           </div>
 
           <div className='flex flex-col items-center'>
           <div className="sm:size-28 size-20  bg-hotbar bg-cover flex justify-center items-center">
-            <img src="cybersec1.png" alt="cybersecurity" className='size-24 mt-2'/>
+            <img src="cybersec1.png" alt="cybersecurity" className='sm:size-20 sm:mt-2 mt-1 size-14'/>
           </div>
           <p className='text-white mt-1'>CyberSecurity</p>
           </div>
 
           <div className='flex flex-col items-center'>
           <div className="sm:size-28 size-20  bg-hotbar bg-cover flex justify-center items-center">
-            <img src="cloudnative1.png" alt="blockchain" className='size-28'/>
+            <img src="cloudnative1.png" alt="blockchain" className='sm:size-28 size-20'/>
           </div>
           <p className='text-white mt-1'>Cloud Native</p>
           </div>
 
           <div className='flex flex-col items-center'>
           <div className="sm:size-28 size-20  bg-hotbar bg-cover flex justify-center items-center">
-            <img src="datascience.png" alt="frontend" className='size-20 mt-2 ml-1'/>
+            <img src="datascience.png" alt="frontend" className='sm:size-20 size-12 sm:mt-2 sm:ml-1 mt-1.5'/>
           </div>
           <p className='text-white mt-1'>Data Science</p>
           </div>
 
           <div className='flex flex-col items-center'>
           <div className="sm:size-28 size-20  bg-hotbar bg-cover flex justify-center items-center">
-            <img src="web3.png" alt="frontend" className='size-16'/>
+            <img src="web3.png" alt="frontend" className='sm:size-16 size-11'/>
           </div>
           <p className='text-white mt-1'>WEB3</p>
           </div>
 
           <div className='flex flex-col items-center'>
           <div className="sm:size-28 size-20  bg-hotbar bg-cover flex justify-center items-center">
-            <img src="bitcoin.png" alt="blockchain" className='size-20'/>
+            <img src="bitcoin.png" alt="blockchain" className='sm:size-20 size-16'/>
           </div>
           <p className='text-white mt-1'>BlockChain</p>
           </div>
 
           <div className='flex flex-col items-center'>
           <div className="sm:size-28 size-20  bg-hotbar bg-cover flex justify-center items-center">
-            <img src="Iot.png" alt="frontend" className='size-16'/>
+            <img src="Iot.png" alt="frontend" className='sm:size-16 size-11'/>
           </div>
           <p className='text-white mt-1'>IOT</p>
           </div>
