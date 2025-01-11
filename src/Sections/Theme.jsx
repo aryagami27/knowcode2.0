@@ -32,7 +32,7 @@ function Theme() {
   
 
   return (
-    <div className=' bg-[#005918]'>
+    <div className=' bg-[#005918] overflow-x-hidden'>
       <div className="h-[50vh] w-full bg-leave bg-repeat"></div>
 
       <div className='relative'>
