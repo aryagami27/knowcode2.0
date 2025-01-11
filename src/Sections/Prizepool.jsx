@@ -27,7 +27,7 @@ function Prizepool() {
       <img src="Stoneslab.png" className="object-cover w-full" />
       <img src="Stoneslab.png" className="object-cover w-full" />
       <div className="relative bg-passage bg-center bg-no-repeat bg-cover sm:h-[100vh] h-[400px]">
-        <div className="absolute  w-full h-full top-0 mt-10 py-12 px-2 flex flex-col justify-between">
+        <div className="w-full h-full top-0 py-12 px-2 flex flex-col justify-between">
           <p className="text-white font-Minecrafter sm:text-6xl text-4xl text-center">
             Prizepool
           </p>
