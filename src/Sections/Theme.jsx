@@ -72,7 +72,7 @@ function Theme() {
         />
       </div>
       <div className="h-[50vh] w-full flex justify-center bg-leave bg-repeat pt-10">
-        <div className="flex flex-wrap justify-center sm:space-x-5 sm:text-xl text-xs">
+        <div className="flex flex-wrap justify-center sm:space-x-5 sm:text-xl text-xs font-Minecraft">
         <div className='flex flex-col items-center'>
           <div className="sm:size-28 size-20  bg-hotbar bg-cover flex justify-center items-center">
             <img src="blockchain1.png" alt="blockchain" className='sm:size-16 size-12'/>
