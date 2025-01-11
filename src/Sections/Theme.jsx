@@ -75,7 +75,7 @@ function Theme() {
         <div className="flex flex-wrap justify-center sm:space-x-5 sm:text-xl text-xs font-Minecraft">
         <div className='flex flex-col items-center'>
           <div className="sm:size-28 size-20  bg-hotbar bg-cover flex justify-center items-center">
-            <img src="blockchain1.png" alt="blockchain" className='sm:size-16 size-12'/>
+            <img src="aiml.png" alt="aiml" className='sm:size-16 size-10'/>
           </div>
           <p className='text-white mt-1'>AI/ML</p>
           </div>
