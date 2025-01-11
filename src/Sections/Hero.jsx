@@ -18,7 +18,7 @@ function Hero() {
     <div className='relative' id='home'>
       <div className="flex flex-col items-center w-full py-8 justify-center">
         <img src='S4DSlogo.png' className='mt-32 size-52 max-sm:size-40' />
-        <p className='text-white font-bold text-2xl pt-10 max-sm:text-lg my-12'>PRESENTS</p>
+        <p className='text-white text-4xl pt-10 max-sm:text-lg my-12 font-Minecrafter'>PRESENTS</p>
         <img src='Logo.png' id='logo' className='max-sm:h-40 h-80 translate-y-40 opacity-0' />
         <div className="bg-yellow-300 min-h-52"></div>
       </div>
