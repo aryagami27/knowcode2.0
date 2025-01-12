@@ -63,7 +63,7 @@ function Hero() {
         <p
           className="font-Minecrafter text-center sm:text-4xl text-2xl"
           style={{
-            textShadow: "0px 8px #000000",
+            textShadow: "0px 4px #000000",
             WebkitTextStroke: "2px black",
           }}
         >
@@ -72,7 +72,7 @@ function Hero() {
         <p
           className="font-Minecrafteralt sm:text-8xl text-4xl text-center pb-[50vh]"
           style={{
-            textShadow: "0px 12px #000000",
+            textShadow: "0px 4px #000000",
             WebkitTextStroke: "2px black",
           }}
         >
