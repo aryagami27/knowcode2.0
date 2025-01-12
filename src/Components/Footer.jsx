@@ -83,8 +83,8 @@ function Footer() {
           <p>Eastern Express Highway,</p>
           <p> Near Everard Nagar, Sion (East),</p>
           <p>Mumbai – 400 022</p>
-          <p>Email: arya.gami@somaiya.edu</p>
-          <p>Phone: +91 98196 94152</p>
+          <p>Email: bhavormi.somaiya@somaiya.edu</p>
+          <p>Phone: +91 75066 73337</p>
         </div>
       </div>
       <p className='text-center text-xs pt-8 font-sans'>

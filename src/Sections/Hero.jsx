@@ -55,6 +55,19 @@ function Hero() {
           className="max-sm:h-40 h-80 translate-y-40 opacity-0"
         />
         <div className="bg-yellow-300 min-h-52"></div>
+        <div className="flex space-x-4 mt-6">
+        <button
+  className="py-4 px-8 text-white bg-[url('minecraftbutton.png')] bg-contain bg-no-repeat bg-center font-Minecraft text-xl hover:invert transition duration-200"
+>
+  Apply on Devfolio
+</button>
+<button
+  className="py-4 px-8 text-white bg-[url('minecraftbutton.png')] bg-contain bg-no-repeat bg-center font-Minecraft text-xl hover:invert transition duration-200"
+>
+  Apply on Unstop
+</button>
+
+        </div>
       </div>
       <div
         className="text-[#C2C2C2] h-screen flex justify-center items-center flex-col"
