@@ -3,7 +3,9 @@ import {
   InstagramLogo,
   LinkedinLogo,
   EnvelopeSimple,
+  GoogleLogo,
 } from '@phosphor-icons/react';
+import { GoogleChromeLogo } from '@phosphor-icons/react/dist/ssr';
 
 function Footer() {
   return (
@@ -50,7 +52,7 @@ function Footer() {
           <h2 className='text-white text-lg font-semibold mb-4'>Follow Us</h2>
           <div className='flex flex-col space-y-2 items-start '>
             <a
-              href='#'
+              href='https://www.linkedin.com/company/s4ds-kjsit-studentschapter'
               className='hover:text-white transition-colors duration-300 flex gap-1 items-center justify-center'
             >
               <LinkedinLogo size={28} /> {''}Linkedin
@@ -59,11 +61,11 @@ function Footer() {
               href='#'
               className='hover:text-white transition-colors duration-300 flex gap-1 items-center justify-center'
             >
-              <EnvelopeSimple size={28} />
-              {''}Email
+              <GoogleChromeLogo size={28} />
+              {''}S4DS KJSIT
             </a>
             <a
-              href='#'
+              href='https://www.instagram.com/kjsit.s4ds/'
               className='hover:text-white transition-colors duration-300 flex gap-1 items-center justify-center'
             >
               <InstagramLogo size={28} />
@@ -79,7 +81,7 @@ function Footer() {
           <p> Near Everard Nagar, Sion (East),</p>
           <p>Mumbai – 400 022</p>
           <p>Email: arya.gami@somaiya.edu</p>
-          <p>Phone: +91 9167252463</p>
+          <p>Phone: +91 98196 94152</p>
         </div>
       </div>
       <p className='text-center text-xs pt-8 font-sans'>

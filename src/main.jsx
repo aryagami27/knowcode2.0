@@ -25,8 +25,8 @@ const App = () => {
     <StrictMode>
       <Navbar />
       {!isVideoLoaded && (
-        <div className="loader fixed inset-0 flex items-center justify-center bg-black z-50">
-          <div class="tenor-gif-embed" data-postid="6240430838211283137" data-share-method="host" data-aspect-ratio="1.33155" data-width="100%"><a href="https://tenor.com/view/minecraft-loading-landscape-gif-6240430838211283137">Minecraft Loading GIF</a>from <a href="https://tenor.com/search/minecraft-gifs">Minecraft GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        <div className="loader fixed inset-0 flex items-center justify-center bg-black z-50 font-Minecrafter">
+          Loading...
         </div>
       )}
       <div className="">
