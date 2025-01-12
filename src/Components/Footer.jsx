@@ -53,12 +53,14 @@ function Footer() {
           <div className='flex flex-col space-y-2 items-start '>
             <a
               href='https://www.linkedin.com/company/s4ds-kjsit-studentschapter'
+              target='_blank'
               className='hover:text-white transition-colors duration-300 flex gap-1 items-center justify-center'
             >
               <LinkedinLogo size={28} /> {''}Linkedin
             </a>
             <a
-              href='#'
+              href='https://s4ds.kjsieit.in'
+              target='_blank'
               className='hover:text-white transition-colors duration-300 flex gap-1 items-center justify-center'
             >
               <GoogleChromeLogo size={28} />
@@ -66,6 +68,7 @@ function Footer() {
             </a>
             <a
               href='https://www.instagram.com/kjsit.s4ds/'
+              target='_blank'
               className='hover:text-white transition-colors duration-300 flex gap-1 items-center justify-center'
             >
               <InstagramLogo size={28} />
