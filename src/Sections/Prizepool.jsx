@@ -69,6 +69,7 @@ function Prizepool() {
         </div>
       </div>
       <img src="Stoneslab.png" className="object-cover w-full" />
+      <img src="Stoneslab.png" className="object-cover w-full" />
       <div className="bg-passage bg-center bg-no-repeat bg-cover flex justify-center py-8 px-4">
         <div className="w-full bg-signbkg rounded-2xl py-4 px-2 text-black max-w-[1200px] h-full gap-4 flex flex-col justify-center">
           <p className="text-4xl font-Minecrafter text-center ">Guidelines</p>
