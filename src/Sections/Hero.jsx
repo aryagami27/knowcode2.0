@@ -57,14 +57,14 @@ function Hero() {
         <div className="bg-yellow-300 min-h-52"></div>
         <div className="flex sm:space-x-4 xs:space-y-4 sm:flex-row flex-col">
           <div className="relative w-60 h-16">
-            <div className="absolute inset-0 bg-[url('minecraftbutton.png')] bg-contain bg-no-repeat bg-center"></div>
-            <button className="relative w-full h-full text-white font-Minecraft text-xl hover:invert transition duration-200">
+            <div className="absolute mt-1"><img src="minecraftbutton.png" alt="" /></div>
+            <button className="relative w-full h-full text-white font-Minecraft text-xl hover:text-yellow-300">
               Apply on Devfolio
             </button>
           </div>
           <div className="relative w-60 h-16 mt-4 sm:mt-0">
-            <div className="absolute inset-0 bg-[url('minecraftbutton.png')] bg-contain bg-no-repeat bg-center"></div>
-            <button className="relative w-full h-full text-white font-Minecraft text-xl hover:invert transition duration-200">
+          <div className="absolute mt-1"><img src="minecraftbutton.png" alt="" /></div>
+            <button className="relative w-full h-full text-white font-Minecraft text-xl hover:text-yellow-300">
               Apply on Unstop
             </button>
           </div>
