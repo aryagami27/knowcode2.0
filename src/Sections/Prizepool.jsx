@@ -73,7 +73,7 @@ function Prizepool() {
       <div className="bg-passage bg-center bg-no-repeat bg-cover flex justify-center py-8 px-4">
         <div className="w-full bg-signbkg rounded-2xl py-4 px-2 text-black max-w-[1200px] h-full gap-4 flex flex-col justify-center">
           <p className="text-4xl font-Minecrafter text-center ">Guidelines</p>
-          <div className="font-medium max-sm:text-xs lg:text-lg text-justify px-4 font-Minecraft">
+          <div className="font-medium max-sm:text-xs lg:text-lg text-justify px-4 font-Minecraft font-semibold">
             <p>
               1) Participants are required to remain within the college premises
               during the Hackathon, seeking permission from volunteers if there's
