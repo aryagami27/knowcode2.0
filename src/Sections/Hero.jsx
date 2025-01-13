@@ -34,7 +34,7 @@ function Hero() {
       setTimeLeft(
         `${days}D:${hours.toString().padStart(2, "0")}H:${minutes
           .toString()
-          .padStart(2, "0")}M:${seconds.toString().padStart(2, "0")}S`
+          .padStart(2, "0")}M`
       );
     };
 
@@ -54,25 +54,17 @@ function Hero() {
           id="logo"
           className="max-sm:h-40 h-80 translate-y-40 opacity-0"
         />
-        <div className="bg-yellow-300 min-h-52"></div>
-        <div className="flex sm:space-x-4 xs:space-y-4 sm:flex-row flex-col">
-          <div className="relative w-60 h-16">
-            <div className="absolute mt-1"><img src="minecraftbutton.png" alt="" /></div>
-            <button className="relative w-full h-full text-white font-Minecraft text-xl hover:text-yellow-300">
-              Apply on Devfolio
-            </button>
+        <div className="relative w-60 h-16 mt-10 sm:mt-10">
+          <div className="absolute mt-1">
+            <img src="minecraftbutton.png" alt="" />
           </div>
-          <div className="relative w-60 h-16 mt-4 sm:mt-0">
-          <div className="absolute mt-1"><img src="minecraftbutton.png" alt="" /></div>
-            <button className="relative w-full h-full text-white font-Minecraft text-xl hover:text-yellow-300">
-              Apply on Unstop
-            </button>
-          </div>
+          <button className="relative w-full h-full text-white font-Minecraft text-xl hover:text-yellow-300">
+            Apply NOW!
+          </button>
         </div>
-
       </div>
       <div
-        className="text-[#C2C2C2] h-screen flex justify-center items-center flex-col "
+        className="text-[#C2C2C2] h-screen flex justify-center items-center flex-col mt-20"
         id="clock"
       >
         <p
@@ -85,7 +77,7 @@ function Hero() {
           Time Left
         </p>
         <p
-          className="font-Minecrafteralt sm:text-8xl text-4xl text-center pb-[50vh]"
+          className="font-Minecrafteralt sm:text-8xl text-5xl text-center pb-[50vh]"
           style={{
             textShadow: "0px 4px #000000",
             WebkitTextStroke: "2px black",
