@@ -24,7 +24,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href='#'
+                href='#about'
                 className='hover:text-white transition-colors duration-300'
               >
                 About
@@ -32,20 +32,20 @@ function Footer() {
             </li>
             <li>
               <a
-                href='#'
+                href='#timeline'
                 className='hover:text-white transition-colors duration-300'
               >
-                Courses
+                Timeline
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href='#'
                 className='hover:text-white transition-colors duration-300'
               >
                 Contact
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div>
