@@ -58,9 +58,11 @@ function Hero() {
           <div className="absolute mt-1">
             <img src="minecraftbutton.png" alt="" />
           </div>
+          <a href="https://knowcode-2.devfolio.co/" target="_blank">
           <button className="relative w-full h-full text-white font-Minecraft text-xl hover:text-yellow-300">
             Apply NOW!
           </button>
+          </a>
         </div>
       </div>
       <div
