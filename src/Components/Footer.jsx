@@ -52,7 +52,7 @@ function Footer() {
           <h2 className='text-white text-lg font-semibold mb-4'>Follow Us</h2>
           <div className='flex flex-col space-y-2 items-start '>
             <a
-              href='https://www.linkedin.com/company/s4ds-kjsit-studentschapter'
+              href='https://www.linkedin.com/in/s4ds-kjsit-77a944346/'
               target='_blank'
               className='hover:text-white transition-colors duration-300 flex gap-1 items-center justify-center'
             >

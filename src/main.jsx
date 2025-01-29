@@ -23,7 +23,7 @@ const App = () => {
 
   return (
     <StrictMode>
-      <Navbar />
+      {/* <Navbar /> */}
       {!isVideoLoaded && (
         <div className="loader fixed inset-0 flex items-center justify-center text-white bg-black z-50 sm:text-5xl text-xl font-Minecrafter transition-opacity duration-500 ease-out">
           Loading...

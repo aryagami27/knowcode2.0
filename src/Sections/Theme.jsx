@@ -121,7 +121,7 @@ function Theme() {
           <div className="sm:size-28 size-20  bg-hotbar bg-cover flex justify-center items-center">
             <img src="cybersec1.png" alt="cybersecurity" className='sm:size-20 sm:mt-2 mt-1 size-14'/>
           </div>
-          <p className='text-white mt-1 bg-black px-1 bg-opacity-50'>CyberSecurity</p>
+          <p className='text-white mt-1 bg-black px-1 bg-opacity-50 text-xs'>CyberSecurity</p>
           </div>
 
           <div className='flex flex-col items-center'>
