@@ -90,6 +90,9 @@ function Footer() {
       <p className='text-center text-xs pt-8 font-sans'>
         © 2025 S4DS KnowCode - 2.0 All Rights Reserved
       </p>
+      <p className='text-center text-xs pt-8 font-sans'>
+        Designed and Developed By Arya Gami
+      </p>
     </footer>
   );
 }
